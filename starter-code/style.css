@@ -1,9 +1,9 @@
 html {
   background: #f2f1f4;
-  color: #19171c;
+  /*color: #19171c;*/
 }
 
-header {
+/*header {
   padding: 20px;
 }
 
@@ -20,4 +20,125 @@ header {
 
 .logo img {
   width: 60px;
+}*/
+
+/*min code börjar här*/
+
+.articles {
+  /*background: #0043ff;*/
+  /*background-image: url(https://wtop.com/wp-content/uploads/2017/03/ThinkstockPhotos-497785784-692x485.jpg);*/
+  /*height: 360px;*/
+  /*width: 360px;*/
+  padding: 20px;
+  /*float: left;*/
+  /*margin: 0 0 0 62px;*/
+  /*background-size: cover;*/
+  /*position: relative;*/
 }
+
+.article {
+  background-color: white;
+  /*border: 1px black;*/
+  /*width: 20%;*/
+  float: left;
+  margin: 5px;
+}
+
+.box1 {
+  background: url(https://imgix.kitcdn.se/https%3A%2F%2Fstatic.kitcdn.se%2Fcws%2F2017%2F11%2F97e10f56c7b2a7a6bbc890f3f0489305_1509628820837.png?fit=crop&h=1200&ixlib=php-1.1.0&w=1200&s=7c1814a1842f9cb1742cf545dc8c7535);
+  height: 360px;
+  width: 360px;
+  /*float: left;*/
+  background-size: cover;
+  position: relative;
+}
+
+.box2 {
+  background: url(https://imgix.kitcdn.se/https%3A%2F%2Fstatic.kitcdn.se%2Fcws%2F2017%2F11%2F0d0bef72ade78fa0bb75b396a70189b8_1509714327577.png?fit=crop&h=1200&ixlib=php-1.1.0&w=1200&s=e4cd96f2ba55d02f0a1a72c6f8f0630c);
+  height: 360px;
+  width: 360px;
+  /*float: left;*/
+  background-size: cover;
+  position: relative;
+}
+
+.box3 {
+  background: url(https://imgix.kitcdn.se/https%3A%2F%2Fstatic.kitcdn.se%2Fcws%2F2017%2F11%2Fe084897b289df5e4e131c11661fb6d01_1509986651212.jpg?fit=crop&h=840&ixlib=php-1.1.0&w=840&s=3153a457f6fc24989b1275613cfd1744);
+  height: 360px;
+  width: 360px;
+  /*float: left;*/
+  background-size: cover;
+  position: relative;
+}
+
+.box4 {
+  background: url(https://imgix.kitcdn.se/https%3A%2F%2Fstatic.kitcdn.se%2Fcws%2F2017%2F11%2F51d641e2a7aad6eb7ea2101dc534e987_1509728419042.jpg?fit=crop&h=840&ixlib=php-1.1.0&w=840&s=360f9d7ab2b496618d71a3a78f90483c);
+  height: 360px;
+  width: 360px;
+  /*float: left;*/
+  background-size: cover;
+  position: relative;
+}
+
+.box5 {
+  background: url(https://imgix.kitcdn.se/https%3A%2F%2Fstatic.kitcdn.se%2Fcws%2F2017%2F11%2F18715c57a48d7ba9aa5514a84b2b2ce1_1509770406548.jpg?fit=crop&h=840&ixlib=php-1.1.0&w=840&s=69634118e115d0fc2ed6fcfab25d2dc8);
+  height: 360px;
+  width: 360px;
+  /*float: left;*/
+  background-size: cover;
+  position: relative;
+}
+
+.box6 {
+  background: url(https://imgix.kitcdn.se/https%3A%2F%2Fstatic.kitcdn.se%2Fcws%2F2017%2F11%2Fd7b19605b43ffcfa304609261b8b428a_1509981203399.png?fit=crop&h=840&ixlib=php-1.1.0&w=840&s=635050e35651829497c55762433662f9);
+  height: 360px;
+  width: 360px;
+  /*float: left;*/
+  background-size: cover;
+  position: relative;
+}
+
+}
+a:hover {
+    background-color: transparent;
+}
+
+h1 {
+  font-family: Georgia serif;
+  background: white;
+  opacity: 0.6;
+  display: inline;
+  padding: 5px;
+  position: absolute;
+  bottom: 0;
+  margin: 0;
+}
+
+/*span {
+  background: red;
+}
+}*/
+
+@media (min-width: 481px) {
+  /*article {
+    /*background: red;*/
+  }*/
+}
+
+@media (min-width: 481px) and (max-width: 767px){
+  /*article {*/
+    /*background: red;*/
+  }
+}
+
+@media (min-width: 767px){
+  /*article {*/
+    /*background: red;*/
+  }
+}
+
+/*@media (max-width: 600px) {
+  article {
+    background: #3aab00;
+  }
+  }*/
